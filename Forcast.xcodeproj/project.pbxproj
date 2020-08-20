@@ -11,10 +11,10 @@
 		5DB2F3F724ECB656007B0993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F3F624ECB656007B0993 /* SceneDelegate.swift */; };
 		5DB2F3F924ECB656007B0993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F3F824ECB656007B0993 /* ViewController.swift */; };
 		5DB2F3FC24ECB656007B0993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F3FA24ECB656007B0993 /* Main.storyboard */; };
-		5DB2F3FE24ECB65C007B0993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F3FD24ECB65C007B0993 /* Assets.xcassets */; };
 		5DB2F40124ECB65C007B0993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F3FF24ECB65C007B0993 /* LaunchScreen.storyboard */; };
 		5DB2F40C24ECB65C007B0993 /* ForcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F40B24ECB65C007B0993 /* ForcastTests.swift */; };
 		5DB2F41724ECB65C007B0993 /* ForcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F41624ECB65C007B0993 /* ForcastUITests.swift */; };
+		5DE7BD6F24EED78A00EB2EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		5DB2F3F624ECB656007B0993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DB2F3F824ECB656007B0993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DB2F3FB24ECB656007B0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DB2F3FD24ECB65C007B0993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB2F40024ECB65C007B0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB2F40224ECB65C007B0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB2F40724ECB65C007B0993 /* ForcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		5DB2F41224ECB65C007B0993 /* ForcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB2F41624ECB65C007B0993 /* ForcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastUITests.swift; sourceTree = "<group>"; };
 		5DB2F41824ECB65C007B0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 				5DB2F3F624ECB656007B0993 /* SceneDelegate.swift */,
 				5DB2F3F824ECB656007B0993 /* ViewController.swift */,
 				5DB2F3FA24ECB656007B0993 /* Main.storyboard */,
-				5DB2F3FD24ECB65C007B0993 /* Assets.xcassets */,
 				5DB2F3FF24ECB65C007B0993 /* LaunchScreen.storyboard */,
+				5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */,
 				5DB2F40224ECB65C007B0993 /* Info.plist */,
 			);
 			path = Forcast;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB2F40124ECB65C007B0993 /* LaunchScreen.storyboard in Resources */,
-				5DB2F3FE24ECB65C007B0993 /* Assets.xcassets in Resources */,
+				5DE7BD6F24EED78A00EB2EF1 /* Assets.xcassets in Resources */,
 				5DB2F3FC24ECB656007B0993 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
