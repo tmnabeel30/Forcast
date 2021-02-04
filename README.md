@@ -1,2 +1,2 @@
 # Forcast
-Whether App using dark sky API.
+Wheather App using dark sky API.
