@@ -14,6 +14,8 @@
 		5DB2F40124ECB65C007B0993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F3FF24ECB65C007B0993 /* LaunchScreen.storyboard */; };
 		5DB2F40C24ECB65C007B0993 /* ForcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F40B24ECB65C007B0993 /* ForcastTests.swift */; };
 		5DB2F41724ECB65C007B0993 /* ForcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F41624ECB65C007B0993 /* ForcastUITests.swift */; };
+		5DD2C0782908FA2C00719FBD /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DD2C0772908FA2C00719FBD /* weatherData.json */; };
+		5DD2C07A2908FA7100719FBD /* forcastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD2C0792908FA7100719FBD /* forcastInfo.swift */; };
 		5DE7BD6F24EED78A00EB2EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		5DB2F41224ECB65C007B0993 /* ForcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB2F41624ECB65C007B0993 /* ForcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastUITests.swift; sourceTree = "<group>"; };
 		5DB2F41824ECB65C007B0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD2C0772908FA2C00719FBD /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		5DD2C0792908FA7100719FBD /* forcastInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forcastInfo.swift; sourceTree = "<group>"; };
 		5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,10 +106,12 @@
 				5DB2F3F424ECB656007B0993 /* AppDelegate.swift */,
 				5DB2F3F624ECB656007B0993 /* SceneDelegate.swift */,
 				5DB2F3F824ECB656007B0993 /* ViewController.swift */,
+				5DD2C0792908FA7100719FBD /* forcastInfo.swift */,
 				5DB2F3FA24ECB656007B0993 /* Main.storyboard */,
 				5DB2F3FF24ECB65C007B0993 /* LaunchScreen.storyboard */,
 				5DE7BD6E24EED78A00EB2EF1 /* Assets.xcassets */,
 				5DB2F40224ECB65C007B0993 /* Info.plist */,
+				5DD2C0772908FA2C00719FBD /* weatherData.json */,
 			);
 			path = Forcast;
 			sourceTree = "<group>";
@@ -191,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = Nabeel;
 				TargetAttributes = {
 					5DB2F3F024ECB656007B0993 = {
@@ -234,6 +240,7 @@
 			files = (
 				5DB2F40124ECB65C007B0993 /* LaunchScreen.storyboard in Resources */,
 				5DE7BD6F24EED78A00EB2EF1 /* Assets.xcassets in Resources */,
+				5DD2C0782908FA2C00719FBD /* weatherData.json in Resources */,
 				5DB2F3FC24ECB656007B0993 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				5DB2F3F924ECB656007B0993 /* ViewController.swift in Sources */,
 				5DB2F3F524ECB656007B0993 /* AppDelegate.swift in Sources */,
+				5DD2C07A2908FA7100719FBD /* forcastInfo.swift in Sources */,
 				5DB2F3F724ECB656007B0993 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +350,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +411,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
