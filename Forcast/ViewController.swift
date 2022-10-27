@@ -46,8 +46,10 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         print(lat,long)
         Object.changedURL(lat: lat, long: long)
         print(Object.weatherURL)
-
+    performRequest()
     }
+    
+    
     
 }
 

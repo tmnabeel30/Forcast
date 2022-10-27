@@ -10,7 +10,7 @@ import Foundation
 struct ForcastData {
     var weatherURL = "https://api.open-meteo.com/v1/forecast?latitude=37.785834&longitude=-122.406417&&current_weather=true&&timezone=auto"
     mutating func changedURL(lat: String, long:String){
-      //1. Create a Url
+      //1. edditing url lat and long
         let finalURL = "https://api.open-meteo.com/v1/forecast?latitude=\(lat)&longitude=\(long)&&current_weather=true&&timezone=auto"
        weatherURL = finalURL
     }
@@ -18,7 +18,38 @@ struct ForcastData {
 }
 
 func performRequest(){
-    
+   //step 1. creating url
+    let url = URL(string: ForcastData().weatherURL)
+    //Step 2. Create A url session
+    let session = URLSession(configuration: .default)
+    //Step 3. using data task to retrieve info
+    let task = session.dataTask(with: url!, completionHandler: handle(data:urlrespose:errror:))
+        
+    task.resume()
+    //Completion Handler Function
+    func handle(data:Data?, urlrespose:URLResponse?, errror:Error?){
+        if errror != nil{
+            print(errror!)
+            return
+        }
+        if let safeData = data{
+            let dataString = String(data: safeData, encoding: .utf8)
+            print(dataString)
+    }
+   
+       
+        }
+//        guard let httpResponse = response as? HTTPURLResponse,
+//                    (200...299).contains(httpResponse.statusCode) else {
+//                  print(error)
+//                    return
+//
+//    }
+//        if let safedata = data{
+//            let safestring = String(data: safedata, encoding: .utf8)
+//
+//        }
+
 }
 
 
@@ -66,4 +97,4 @@ func performRequest(){
 //
 //        urlSession.resume()
 //    }
-//}
+
