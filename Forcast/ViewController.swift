@@ -47,9 +47,20 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         Object.changedURL(lat: lat, long: long)
         print(Object.weatherURL)
     performRequest()
+        tempLabel.text = currentWeather
     }
     
+    @IBAction func SearchForLocatioin(_ sender: Any) {
+   performGeocodingRequest()
+//        updateTempLabel()
+                  }
     
+    @IBOutlet weak var tempLabel: UILabel!
+    
+    func updateTempLabel(){
+       
+        tempLabel.text = currentWeather
+      
     
 }
 
